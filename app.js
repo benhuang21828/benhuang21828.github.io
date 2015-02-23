@@ -13,9 +13,9 @@
     $http.get('http://ec2-52-10-163-61.us-west-2.compute.amazonaws.com/api/resume/experience/').success(function(data){
     	console.log(data.results);
       Exp.stuff = data.results;
-      // setTimeout(function() {
+      
         Reveal.initialize();
-                       // }, .1 * 1000);
+                       
     });
   }]);
 
@@ -25,9 +25,9 @@
     $http.get('http://ec2-52-10-163-61.us-west-2.compute.amazonaws.com/api/resume/bio/').success(function(data){
         console.log(data);
       Person.things = data.results;
-      // setTimeout(function() {
+      
         Reveal.initialize();
-                       // }, .1 * 1000);
+                       
     });
   }]);
 
