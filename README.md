@@ -14,6 +14,8 @@ Bio ==> <a href="http://ec2-52-10-163-61.us-west-2.compute.amazonaws.com/api/res
 - **js/** Like above but for JavaScript
 - **plugin/** Components that have been developed as extensions to reveal.js
 - **lib/** All other third party assets (JavaScript, CSS, fonts)
+- **index.html** browser magic
+- **apps.js** Angular call back
 
 RevealJS' license
 ## License
