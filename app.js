@@ -10,7 +10,7 @@
   app.controller('ExperienceController', ['$http',function($http){
     var Exp = this;
     Exp.stuff = [];
-    $http.get('http://ec2-52-10-163-61.us-west-2.compute.amazonaws.com/api/resume/experience/').success(function(data){
+    $http.get('https://ec2-52-10-163-61.us-west-2.compute.amazonaws.com/api/resume/experience/').success(function(data){
     	console.log(data.results);
       Exp.stuff = data.results;
       
@@ -22,7 +22,7 @@
   app.controller('BioController', ['$http',function($http){
     var Person = this;
     Person.things = [];
-    $http.get('http://ec2-52-10-163-61.us-west-2.compute.amazonaws.com/api/resume/bio/').success(function(data){
+    $http.get('https://ec2-52-10-163-61.us-west-2.compute.amazonaws.com/api/resume/bio/').success(function(data){
         console.log(data);
       Person.things = data.results;
       
